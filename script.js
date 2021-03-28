@@ -22,7 +22,7 @@ answers[2]=prompt("What's you name Mother?",""); */
 
 //console.log(`https://karsu.uz/${category}/7`);
 //console.log(2*4===8);
- const numberOfFilms = +prompt("Сколько фильмов вы уже посмотрели?","");
+ /* const numberOfFilms = +prompt("Сколько фильмов вы уже посмотрели?","");
 console.log(numberOfFilms);
 
 const personalMovieDB={
@@ -31,7 +31,7 @@ const personalMovieDB={
     actors:{},
     genres:{},
     privat:false
-};
+}; */
 
 /* const a=prompt("Один из последних просмотренных фильмов?",""),
       b=prompt("На сколько оцените его?",""),
@@ -41,7 +41,7 @@ const personalMovieDB={
       personalMovieDB.movies[a]=b;
       personalMovieDB.movies[c]=d; */
       //console.log(personalMovieDB); 
-      for (let i=0; i<2; i++)
+      /* for (let i=0; i<2; i++)
         {
            const a=prompt("Один из последних просмотренных фильмов?",""),
                b=prompt("На сколько оцените его?","");
@@ -54,15 +54,17 @@ const personalMovieDB={
                else 
                {
                     console.log ("error!");
+                    i--;
                 }
         }
+        
         if(personalMovieDB.count<10)
             {
                 console.log("Просмотрено довольно мало фильмов");
             }
         else if(personalMovieDB.count>=10 && personalMovieDB.count<=30)
             {
-                console.log("Вы классический зрительВы классический зритель");
+                console.log("Вы классический зритель");
             }  
             
         else if(personalMovieDB.count>30)
@@ -70,7 +72,7 @@ const personalMovieDB={
                 console.log("Вы киноман");
             }
         else { console.log("error"); }   
-        console.log(personalMovieDB); 
+        console.log(personalMovieDB);  */
 
   //const num=95;
     
@@ -98,3 +100,7 @@ const personalMovieDB={
             console.log(n);
             n++;
         } */
+
+        let str="Nawriz";
+        str.toUpperCase();
+        console.log(str);
